@@ -1,3 +1,44 @@
+
+*{
+padding: 0PX;
+margin: 0PX;    
+}
 .whole{
     background-color: skyblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    padding-top: 100PX;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin:20px;
+}
+
+#sky{
+    background-color: rgb(255, 0, 242);
+}
+
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
 }
